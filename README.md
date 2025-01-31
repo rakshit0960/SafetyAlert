@@ -1,8 +1,17 @@
-# Welcome to your Expo app 👋
+# SafetyAlert - Emergency Response App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A real-time emergency alert and response mobile application built with Expo and React Native.
 
-## Get started
+## Features
+
+- 🚨 Live Emergency Alerts
+- 📍 Location-based Incident Reporting
+- 🗺️ Interactive Safety Map
+- 🚪 Emergency Evacuation Guides
+- 🔐 Secure Authentication with Clerk
+- 📱 Cross-platform (iOS & Android)
+
+## Getting Started
 
 1. Install dependencies
 
@@ -10,41 +19,43 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Set up environment variables
 
+   - Create a Clerk account and get your API keys
+   - Configure your OAuth providers (Google, GitHub)
+
+3. Start the development server
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Development Options
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+You can run the app on:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- iOS Simulator
+- Android Emulator
+- Physical device using Expo Go
+- Development build for full native functionality
 
-## Get a fresh project
+## Tech Stack
 
-When you're ready, run:
+- Expo SDK 52
+- React Native
+- Clerk Authentication
+- NativeWind (Tailwind CSS)
+- Expo Router
+- React Native Maps
+- TypeScript
 
-```bash
-npm run reset-project
-```
+## Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-## Learn more
+## License
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License.
